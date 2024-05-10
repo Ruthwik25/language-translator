@@ -1,0 +1,107 @@
+
+/* Import Google Font Poppins */
+@import url('https://fonts.googleapis.com/css?family=Poppins: wght@400; 500; 600; 700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+} 
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: radial-gradient(#FFAFCC,#BDE0FE,#A2D2FF,#CDB4DB,#FFC8DD,#FFAFCC);
+}
+.container{
+    width: 700px;
+    background: #252422;
+    border-radius: 8px;
+    padding: 30px;
+
+}
+
+.wrapper {
+    border: 1px solid #FFAFCC;
+    border-radius: 5px;
+
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #FFAFCC;
+}
+.text-input .to-text{
+    border-left: 1px solid #FFAFCC;
+    border-radius: 0px;
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+    resize: none;
+    color: beige;
+}
+
+.controls, li,.icons,.icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+.controls .row.from .icons{
+    padding-right:15px ;
+    border-right: 1px solid #FFAFCC;
+    color: beige;
+}
+
+.controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid #FFAFCC;
+    color: beige;
+}
+
+.controls .icons{
+    width: 40%;
+}
+.controls .icons i{
+    color: beige;
+    font-size:14px;
+    width: 50px;
+    cursor: pointer;
+    justify-content: center;
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    color: beige;
+}
+.controls .exchange{
+    color: beige;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background: #FFAFCC;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 18px;
+    color: black;
+}
